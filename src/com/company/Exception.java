@@ -3,7 +3,7 @@ package com.company;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exception extends Throwable {
+public class Exception  {
     public void addition() {
         Scanner in=new Scanner(System.in);
         System.out.println("Enter two numbers for addition :");
