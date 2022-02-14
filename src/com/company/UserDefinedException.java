@@ -10,7 +10,7 @@ public class UserDefinedException {
         System.out.println("Enter Your Age :");
         age=in.nextInt();
     }
-    public static void main(String []args){
+    public static void main(String []args) throws InvalidAgeException {
         AgeScanner();
         InvalidAgeException.Check(age);
     }
