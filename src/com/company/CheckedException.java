@@ -16,7 +16,8 @@ public class CheckedException {
             fis.close();
         }
         catch(IOException ioException){
-            System.err.println("Your file is not founded!!!");
+            System.err.println("Your file is not founded!");
         }
+        System.out.println("Program finished");
     }
 }
