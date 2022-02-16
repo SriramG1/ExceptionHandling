@@ -1,6 +1,6 @@
 package com.company;
-
-public class InsufficientBalanceException extends Throwable {
+import java.lang.Exception;
+public class InsufficientBalanceException extends Exception {
     InsufficientBalanceException(int balanceAmd){
         System.out.println(balanceAmd +" is need !!!");
     }
